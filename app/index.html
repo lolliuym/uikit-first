@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>gulp uikit</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory-->
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="bower_components/uikit/dist/css/uikit.css">
+    <!-- build:js scripts/vendor/modernizr.js-->
+    <script src="bower_components/modernizr/modernizr.js"></script>
+    <!-- endbuild-->
+</head>
+<body>
+<!--if lt IE 10
+p.browsehappy
+  | You are using an
+  strong outdated
+  |  browser. Please
+  a(href='http://browsehappy.com/') upgrade your browser
+  |  to improve your experience.
+
+-->
+
+<script>
+    (function (d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s);
+        js.id = id;
+        js.src = "//connect.facebook.net/ru_RU/sdk.js#xfbml=1&version=v2.10";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+ 
+
+</script>
+
+
+</body>
+<div class="background">
+    <div class="uk-container">
+
+    <!-- Главное меню-->
+    <nav class="uk-navbar-container">
+        <div class=" menu-top uk-navbar uk-position-relative">
+                 <img src="images/logotype.png" alt="Логотип" class="logo uk-navbar-left">
+                <div class="feedback-in-top uk-position-right uk-flex uk-flex-bottom">
+                    <a href="/" class="calculate-the-cost">Расчитать стоимость</a>
+                    <div class="concat  ">
+                        <p class="work-time">с 9 до 21 без выходных</p>
+                        <p class="phone">+7 495 534-65-33</p>
+                    </div>
+                </div>
+
+        </div>
+        <ul class="menu uk-flex uk-flex-around uk-nav">
+            <li class="cell auto"><a href="/about-company/">О компании</a></li>
+            <li class="cell auto"><a href="/price/">Цены</a></li>
+            <li class="cell shrink"><a href="/services-and-products/">Услуги и продукты</a></li>
+            <li class="cell auto"><a href="/stocks/">Акции</a></li>
+            <li class="cell auto"><a href="/contacts/">Контакты</a></li>
+        </ul>
+    </nav>
+
+    <!-- Медиаконтент-->
+    <div class="topic-page">
+        <h1 class="main-topic">Цветные пластиковые окна</h1>
+        <h4 class="topic">Ламинируем профиль ПВХ для предания окнам цвета и фактуры дерева</h4>
+    </div>
+
+
+
+    <div class="media-content uk-grid">
+        <!-- Медиаконтент -> Левая панель-->
+        <div class="left-side uk-width-auto@m">
+            <p>Рекомендуем также</p>
+            <ul class="list-of-products">
+                <li><a href="/edingurgh-by-rehau/">Edingurgh by REHAU</a></li>
+                <li><a href="/estet-by-rehau/">Estet by REHAU</a></li>
+                <li><a href="/rehau-delight-design/">REHAU DELIGHT-Design</a></li>
+                <li><a href="/rehau-brilliant-design/">REHAU BRILLIANT-Design</a></li>
+                <li><a href="/rehau-geneo/">REHAU Geneo</a></li>
+                <li><a href="/color-window/">Цветные окна</a></li>
+                <li><a href="/double-glazed-windows/">Стеклопакеты</a></li>
+                <li><a href="/glazing-of-balconies-and-loggias/">Остекление балконов и лоджий</a></li>
+                <li><a href="/finishing-and-warming-of-balconies/">Отделка и утепление балконов</a></li>
+                <li><a href="/balcony-blocks/">Балконные блоки</a></li>
+            </ul>
+        </div>
+        <!-- Медиаконтент -> Основной контент-->
+        <div class="section uk-width-expand@m">
+
+            <!-- Медиаконтент -> Основной контент -> Интрерьер с цветными окнами-->
+            <div class="-condition uk-container">
+                <div class="row ">
+                    <p class="topic-row">Создайте выразительный интерьер с  цветными окнами REHAU</p>
+                    <div class="img-of-windows-in-incision ">
+                        <img src="images/window-in-incision.png" alt="Окно в разрезе">
+                        <p>Ирландский дуб</p>
+                    </div>
+                    <div class="-description-new cell auto">
+                        <h3 class="topic">Цветное окно REHAU ЭСТЕТ</h3>
+                        <p class="subtopic">Создайте выразительный интерьер с цветными окнами REHAU</p>
+                        <ul class="-status">
+                            <li><span>Точная визуализация натурального дерева.</span></li>
+                            <li><span>Яркие нестандартные цвета в тон или в дополнение интерьера.</span></li>
+                            <li><span>Разные фактуры для Ваших пластиковых окон.</span></li>
+                        </ul>
+                        <ul class="-price">
+                            <li>
+                                <p class="old-price">старая цена:</p>
+                                <p class="new-price">новая цена:</p>
+                            </li>
+                            <li>
+                                <p class="grey-text">от 23 026 р/м<sup>2</sup></p>
+                                <p class="-price-of-ruble-per-meter red-text is-dashed">от 11 250 р/м<sup>2</sup></p>
+                            </li>
+                            <li>
+                                <p class="grey-text">скидка</p>
+                                <p class="red-text">-53%</p>
+                            </li>
+                            <li>
+                                <p class="grey-text">действует</p>
+                                <p class="red-text">с 15 по 20</p>
+                                <p>февраля</p>
+                            </li>
+                        </ul>
+                        <button class="-stock">Рассчитать со скидкой 70%</button><a href="" class="grey-text is-underlined">или отправить заявку и получить консультацию</a>
+                    </div>
+                    <div class="-description cell auto">
+                        <ul class="-status">
+                            <li><span>Точная визуализация натурального дерева.</span></li>
+                            <li><span>Яркие нестандартные цвета в тон или в дополнение интерьера.</span></li>
+                            <li><span>Разные фактуры для Ваших пластиковых окон.</span></li>
+                        </ul>
+                        <p class="choose-color-of-the-material">Подберите цвет для своих окон:</p>
+                        <ul class="choose-of-material">
+                            <li><img src="images/wood-color/wood-1.png" alt="Дерево-1">
+                                <div class="is-choice"></div>
+                            </li>
+                            <li><img src="images/wood-color/wood-2.png" alt="Дерево-2">
+                                <div>                                       </div>
+                            </li>
+                            <li><img src="images/wood-color/wood-3.png" alt="Дерево-3">
+                                <div>                                       </div>
+                            </li>
+                            <li><img src="images/wood-color/wood-4.png" alt="Дерево-4">
+                                <div>                                       </div>
+                            </li>
+                            <li><img src="images/wood-color/wood-5.png" alt="Дерево-5">
+                                <div>                                       </div>
+                            </li>
+                            <li>     <img src="images/wood-color/wood-6.png" alt="Дерево-6">
+                                <div>                                       </div>
+                            </li>
+                            <li><img src="images/wood-color/wood-7.png" alt="Дерево-7">
+                                <div>                                       </div>
+                            </li>
+                        </ul>
+                        <p class="variants-of-colors-and-textures">Больше 50 вариантов цветов и фактур спращивайте у нащих замерщиков</p>
+                        <ul class="-price">
+                            <li>
+                                <p>цена:</p>
+                                <p class="-price-of-ruble-per-meter red-text is-dashed">от 4 214 р/м<sup>2</sup></p>
+                            </li>
+                            <li>
+                                <p class="grey-text">скидка</p>
+                                <p class="red-text">-70%</p>
+                            </li>
+                            <li>
+                                <p class="grey-text">действует</p>
+                                <p class="red-text">с 15 по 20</p>
+                                <p>февраля</p>
+                            </li>
+                        </ul>
+                        <button class="-stock">Рассчитать со скидкой 70%</button><a href="" class="grey-text is-underlined">или отправить заявку и получить консультацию</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Медиаконтент -> Основной контент -> Характеристика окон-->
+            <div class="row -characteristic">
+                <p class="topic">Зачем использовать ламинацию</p>
+                <ul class="-using">
+                    <li><img src="images/forma.png" alt="Слои материалов">
+                        <p>Чтобы придать внешнему виду окна оригинальную выразительность, специалисты применяют ламинацию – приём, при помощи которого можно декорировать своё жилье с учетом самых современных веяний дизайнерского искусства.</p>
+                    </li>
+                    <li><img src="images/shape.png" alt="Дерево">
+                        <p>При помощи ламинации оконного профиля можно, например, со всей точностью воспроизвести оттенки и структуру древесины: при этом обеспечивается полная визуализация натурального дерева, точно имитирующая расположение волокон. Помимо имитации деревянных поверхностей, применяют пленку самых разных цветов и фактур.</p>
+                    </li>
+                </ul>
+                <h3>Как окна остановятся цветными?</h3>
+                <ol class="-processor">
+                    <li>
+                        <p>Собственно, процесс ламинации профиля ПВХ состоит в процедуре нанесения на его поверхность декоративных высокопрочных плёнок с применением специального клея и ламинирующих установок.</p>
+                    </li>
+                    <li>
+                        <p>Плёнку прочно соединяют с профилем. При этом внешней стороне пленки свойственна высокая стойкость к повреждениям. В частности, цветное пластиковое окно, прошедшее процесс ламинации, стойко переносит температурные колебания в диапазоне от -80°С до +130°С, оно исключительно стойко к солнечному излучению.</p>
+                    </li>
+                    <li>
+                        <p>Пластиковые окна, прошедшие процесс ламинации профилей, имеют срок службы гораздо больший, чем не ламинированные окна. В сравнении с окнами из массива дерева, они значительно дешевле.</p>
+                    </li>
+                </ol>
+            </div>
+            <!-- Медиаконтент -> Основной контент -> Отзывы-->
+            <div class="topic-review">
+                <p class="topic">Отзывы о цветных пластиковых окнах</p><a href="/" class="see-all-reviews text-to-right red-text">посмотреть еще отзывы</a>
+                <div class="row -reviews">
+                    <div>
+                        <p>Алена,</p>
+                        <p class="grey-text">Договор № 09.10.33512.13</p>
+                        <p class="grey-text">Дата размещения: 13 декабря 2013 года</p>
+                        <ul class="-valuation">
+                            <li>
+                                <div class="star is-actived"></div>
+                            </li>
+                            <li>
+                                <div class="star is-actived"></div>
+                            </li>
+                            <li>
+                                <div class="star is-actived"></div>
+                            </li>
+                            <li>
+                                <div class="star is-actived"></div>
+                            </li>
+                            <li>
+                                <div class="star is-actived"></div>
+                            </li>
+                        </ul>
+                        <p>Поставили нам окна во всей квартире.Все очень понравилось)))компания на 5+.Все очень любезные,гибкая система скидок!!!буду советовать всем!!!Сервис был на высоте,во-первых с поставкой получилось быстрее,во-вторых два раза приезжал замерщик Алексей,ему большое спасибо...</p><a href="/" class="read-completely">
+                        <div></div>
+                        <p class="red-text is-dashed">прочитать полностью</p></a>
+                    </div>
+                    <div>
+                        <button type="button" class="give-feedback">Оставить отзыв</button>
+                        <div data-href="https://developers.facebook.com/docs/plugins/" data-layout="standard" data-action="like" data-size="small" data-show-faces="false" data-share="false" class="fb-like"></div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- Медиаконтент -> Основной контент -> Галлерея-->
+
+            <div id=" row slider">
+                <div id="slider_box">
+                    <ul>
+                        <li id="img_1"></li>
+                        <li id="img_2"></li>
+                        <li id="img_3"></li>
+                        <li id="img_4"></li>
+                        <li id="img_5"></li>
+                        <li id="img_6"></li>
+                        <li id="img_7"></li>
+                        <li id="img_8"></li>
+                        <li id="img_9"></li>
+                        <li id="img_10"></li>
+                        <li id="img_11"></li>
+                    </ul>
+                </div>
+                <div id="nav_slider">
+                    <div id="left_nav"></div>
+                    <div id="right_nav"></div>
+                </div>
+            </div>
+
+        </div>
+
+
+    </div>
+</div>
+    <!-- Footer-->
+</div>
+<div class="footer">
+    <div class="row">
+        <ul class="menu grid-x text-center">
+            <li class="cell auto"><a href="/about-company/">О компании</a></li>
+            <li class="cell auto"><a href="/price/">Цены</a></li>
+            <li class="cell shrink"><a href="/services-and-products/">Услуги и продукты</a></li>
+            <li class="cell auto"><a href="/stocks/">Акции</a></li>
+            <li class="cell auto"><a href="/contacts/">Контакты</a></li>
+        </ul>
+        <div class="contact-in-footer">
+            <p>Тел.:<span>+7 495 534-65-33</span>   (многоканальный)</p>
+            <p>E-mail:<a class="email-in-footer red-text is-underlined">order@oknapolis.ru</a></p>
+        </div>
+    </div>
+</div>
+
+
+
+<!-- build:js scripts/vendor.js-->
+<!-- bower:js-->
+<script src="bower_components/jquery/dist/jquery.js"></script>
+<link rel="stylesheet" href="bower_components/uikit/dist/js/uikit.js">
+<!-- endbower-->
+<!-- endbuild-->
+<script src="scripts/app.js"></script>
+<!-- Google Analytics: change UA-XXXXX-X to be your site's ID.-->
+<script>
+    (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+        function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+        e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+        e.src='//www.google-analytics.com/analytics.js';
+        r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+    ga('create','UA-XXXXX-X');ga('send','pageview');
+</script>
+</body>
+</html>
